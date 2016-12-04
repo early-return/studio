@@ -1,0 +1,77 @@
+/**nav {
+  padding-top: 1em;
+  border-bottom: 1px solid #e5e5e5;
+}
+nav h3 {
+  padding-bottom: 19px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+nav h3 a, nav h3 a:hover, nav h3 a:active, nav h3 a:visited {
+  text-decoration: none;
+}
+nav h3 a, nav h3 a:active, nav h3 a:visited {
+  color: #666;
+}
+nav h3 a:hover {
+  color: #333;
+}
+ul.nav li a {
+  font-size: 1.2em;
+}**/
+
+header {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-color: #FFF;
+}
+header .logo {
+  display: inline-block;
+  margin: 0;
+}
+header .logo a {
+  text-decoration: none;
+  color: #333;
+}
+header .logo a:hover {
+  text-decoration: none;
+  color: #000;
+}
+header ul>li {
+  display: inline-block;
+  font-size: 1.2em;
+}
+header ul>li>a, header ul>li>a:visited {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  margin: 0 .5em 0 .5em;
+  border-bottom: 3px solid rgba(255, 255, 255, 0);
+}
+header ul>li>a:hover, header ul>li>a:active {
+  text-decoration: none;
+  color: #4285F4;
+  border-bottom: 3px solid #FBBC05;
+}
+
+header ul>li>a.active {
+  color: #4285F4;
+  font-weight: bold;
+}
+
+header.home {
+  background-color: #4285F4;
+}
+header.home .logo a {
+  color: #FFF;
+}
+header.home .logo a:hover {
+  color: #DDD;
+}
+header.home ul>li>a {
+  color: #EEE;
+}
+header.home ul>li>a:hover {
+  color: #FFF;
+}

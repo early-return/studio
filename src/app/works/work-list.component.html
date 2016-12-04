@@ -1,0 +1,7 @@
+<h1>Work List</h1>
+
+<ul>
+  <li *ngFor="let work of works" (click)="onSelect(work)">{{work.name}}({{work.id}})</li>
+</ul>
+
+<router-outlet></router-outlet>

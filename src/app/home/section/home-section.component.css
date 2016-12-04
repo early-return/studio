@@ -1,3 +1,28 @@
 .jumbotron {
-  background-color: #4285F4;;
+  background-color: #4285F4;
+  text-align: center;
+  padding-top: 6em;
+  color: #EEE;
+}
+.jumbotron>h1 {
+
+}
+.jumbotron p.intro {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+.jumbotron .btn {
+  background-color: #0071BC;
+  padding: 0.7em 2em;
+  color: #FFF;
+  letter-spacing: .3em;
+  font-weight: bold;
+  position: relative;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.2);
+  transition: all 0.5s;
+}
+.jumbotron .btn:hover {
+  top: -2px;
+  background-color: #0066AA;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0);
 }

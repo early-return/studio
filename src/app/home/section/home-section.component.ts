@@ -1,16 +1,10 @@
 import { Component } from '@angular/core'
-import {StateService} from "../service/state.service";
+import {StateService} from "../../service/state.service";
 
 @Component({
-  selector: 'home',
-  templateUrl: 'home.component.html',
-  styleUrls: ['home.component.css']
+  selector: 'home-section',
+  templateUrl: 'home-section.component.html',
+  styleUrls: ['home-section.component.css']
 })
-export class HomeComponent {
-
-  constructor(
-    public stateService: StateService
-  ) {
-    stateService.state = 'home';
-  }
+export class HomeSectionComponent {
 }

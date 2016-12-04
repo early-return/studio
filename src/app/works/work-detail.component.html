@@ -1,0 +1,10 @@
+<h1>Work Detail</h1>
+<div *ngIf="work">
+
+  <p>id: {{work.id}}</p>
+  <p>name: {{work.name}}</p>
+  <p>detail: {{work.detail}}</p>
+
+</div>
+
+<p (click)="gotoWorks()">Back</p>
