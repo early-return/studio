@@ -10,44 +10,10 @@ import {StateService} from "../service/state.service";
 @Component({
   selector: 'work-detail',
   templateUrl: 'work-detail.component.html',
-  styleUrls: ['work-detail.component.css'],
-
-  animations: [
-    trigger('routeAnimation', [
-      state('*',
-        style({
-          opacity: 1,
-          transform: 'translateX(0)'
-        })
-      ),
-      transition(':enter', [
-        style({
-          opacity: 0,
-          transform: 'translateX(-100%)'
-        }),
-        animate('0.2s ease-in')
-      ]),
-      transition(':leave', [
-        animate('0.5s ease-out', style({
-          opacity: 0,
-          transform: 'translateY(100%)'
-        }))
-      ])
-    ])
-  ]
+  styleUrls: ['work-detail.component.css']
 })
 export class WorkDetailComponent implements OnInit{
   work: Work;
-
-  @HostBinding('@routeAnimation') get routeAnimation() {
-    return true;
-  }
-  @HostBinding('style.display') get display() {
-    return 'block';
-  }
-  @HostBinding('style.position') get position() {
-    return 'absolute';
-  }
 
   constructor(
     public stateService: StateService,

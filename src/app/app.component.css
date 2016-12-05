@@ -28,7 +28,7 @@ header {
 }
 header .logo {
   display: inline-block;
-  font-family: Open Sans;
+  font-family: 'Julius Sans One';
   margin: 0;
 }
 header .logo a {
@@ -39,7 +39,7 @@ header .logo a {
 }
 header .logo a:hover {
   text-decoration: none;
-  color: #118833;
+  color: #FBBC05;
 }
 header ul>li {
   display: inline-block;
@@ -73,11 +73,18 @@ header.home .logo a {
   color: #FBBC05;
 }
 header.home .logo a:hover {
-  color: #DD9900;
+  color: #34A853;
 }
 header.home ul>li>a {
   color: #FFF;
 }
 header.home ul>li>a:hover {
   color: #DDD;
+}
+
+footer {
+  margin-top: 4em;
+  padding-top: 2em;
+  padding-bottom: 5em;
+  background-color: #EEE;
 }

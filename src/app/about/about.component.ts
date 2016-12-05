@@ -10,6 +10,5 @@ export class AboutComponent {
     public stateService: StateService
   ) {
     stateService.state = 'about';
-    console.log(JSON.stringify(stateService.state));
   }
 }

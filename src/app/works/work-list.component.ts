@@ -19,7 +19,6 @@ export class WorkListComponent implements OnInit{
     private service: WorkService
   ) {
     stateService.state = 'work-list';
-    console.log(JSON.stringify(stateService.state));
   }
 
   ngOnInit() {
