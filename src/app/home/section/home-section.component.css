@@ -2,6 +2,7 @@
   background-color: #4285F4;
   text-align: center;
   padding-top: 5em;
+  margin-bottom: 5em;
   color: #EEE;
 }
 .jumbotron h1 {
@@ -9,8 +10,10 @@
   font-weight: bold;
 }
 .jumbotron p.intro {
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
+  width: 20em;
+  font-weight: 300;
+  margin: 1.5em auto;
+
 }
 .jumbotron .btn {
   top: 0;

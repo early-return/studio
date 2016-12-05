@@ -1,0 +1,36 @@
+.panel {
+  border: 1px solid #EEE;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.panel .panel-heading .panel-title {
+  font-weight: bold;
+  font-size: 1.3em;
+  font-family: 'Open Sans', sans-serif, source-han-sans-simplified-c, "Microsoft YaHei", SimHei;
+}
+.panel .panel-icon {
+  color: #34A853;
+  line-height: 1.3em;
+  text-align: right;
+  padding-left: 0;
+  padding-right: 0;
+}
+.panel .btn {
+  padding: .5em 2em;
+  background-color: #4285F4;
+  text-align: center;
+  color: #FFF;
+  margin-top: 1em;
+  letter-spacing: 0.2em;
+  font-weight: 600;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.2);
+  position: relative;
+  top: 0;
+  border: 0;
+  transition: all 0.2s;
+}
+.panel .btn:hover {
+  background-color: #2266DD;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0);
+  top: -1px;
+}

@@ -9,9 +9,11 @@ import { AppComponent } from './app.component';
 import { PageNotFoundComponent } from './page-not-found.component';
 import {WorkModule} from "./works/works.module";
 import {AboutComponent} from "./about/about.component";
-import {Logger} from "./service/logger.service";
-import {StateService} from "./service/state.service";
+import {Logger} from "./common/service/logger.service";
+import {StateService} from "./common/service/state.service";
 import {HomeModule} from "./home/home.module";
+import {PanelComponent} from "./common/components/panel.component";
+import {CommonUtilModule} from "./common/common-util.module";
 
 @NgModule({
   declarations: [
@@ -23,6 +25,7 @@ import {HomeModule} from "./home/home.module";
     BrowserModule,
     FormsModule,
     HttpModule,
+    CommonUtilModule,
     AppRoutingModule,
     WorkModule,
     HomeModule

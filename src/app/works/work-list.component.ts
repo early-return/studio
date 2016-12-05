@@ -3,7 +3,7 @@ import {Router} from "@angular/router";
 import {WorkService} from "./work.service";
 import {Work} from "./work";
 import {Observable} from "rxjs";
-import {StateService} from "../service/state.service";
+import {StateService} from "../common/service/state.service";
 
 @Component({
   selector: 'work-list',

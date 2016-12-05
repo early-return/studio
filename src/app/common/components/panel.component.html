@@ -1,0 +1,14 @@
+<div class="panel">
+  <span class="{{iconClass}} col-xs-1"></span>
+  <div class="col-xs-11">
+    <div class="panel-heading col-xs-11">
+      <h3 class="panel-title">{{title}}</h3>
+    </div>
+    <div class="panel-body col-xs-11 col-xs-offset-1">
+      <div class="">
+        {{content}}
+      </div>
+      <button *ngIf="button" (click)="buttonClick()">{{button}}</button>
+    </div>
+  </div>
+</div>

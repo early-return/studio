@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {ActivatedRoute} from "@angular/router";
-import {StateService} from "./service/state.service";
+import {StateService} from "./common/service/state.service";
 
 @Component({
   selector: 'app-root',
