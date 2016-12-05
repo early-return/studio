@@ -4,25 +4,27 @@
   padding-top: 6em;
   color: #EEE;
 }
-.jumbotron>h1 {
-
+.jumbotron h1 {
+  font-family:'LiDeBiao-Xing377217107217619';
+  font-weight: bold;
 }
 .jumbotron p.intro {
   margin-top: 1.5em;
   margin-bottom: 1.5em;
 }
 .jumbotron .btn {
-  background-color: #0071BC;
+  top: 0;
+  background-color: #3377EE;
   padding: 0.7em 2em;
   color: #FFF;
   letter-spacing: .3em;
   font-weight: bold;
   position: relative;
   box-shadow: 0 3px 7px rgba(0, 0, 0, 0.2);
-  transition: all 0.5s;
+  transition: all 0.2s;
 }
 .jumbotron .btn:hover {
   top: -2px;
-  background-color: #0066AA;
+  background-color: #2266DD;
   box-shadow: 0 3px 7px rgba(0, 0, 0, 0);
 }
