@@ -19,6 +19,7 @@ export class WorkListComponent implements OnInit{
     private service: WorkService
   ) {
     stateService.state = 'work-list';
+    stateService.title = '作品列表'
   }
 
   ngOnInit() {

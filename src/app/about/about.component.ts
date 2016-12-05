@@ -10,5 +10,6 @@ export class AboutComponent {
     public stateService: StateService
   ) {
     stateService.state = 'about';
+    stateService.title = '关于'
   }
 }

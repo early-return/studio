@@ -23,6 +23,7 @@ export class WorkDetailComponent implements OnInit{
     private log: Logger
   ) {
     stateService.state = 'work-detail';
+    stateService.title = '作品详情'
   }
 
   gotoWorks() {

@@ -13,6 +13,7 @@ export class HomeComponent {
     private router: Router
   ) {
     stateService.state = 'home';
+    stateService.title = 'home'
   }
 
   onClickWorks() {
