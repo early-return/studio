@@ -1,42 +1,31 @@
 [
   {
     "id": 1,
-    "name": "test work one",
-    "detail": "this is a test",
+    "name": "工作室",
+    "detail": "基于Angular框架编写的一个工作室主页",
     "cover": "this is cover url",
     "platform": "Web",
-    "langs": ["JavaScript", "Javascript"]
+    "libs": ["Angular", "Bootstrap"],
+    "langs": ["TypeScript", "HTML", "CSS"],
+    "source": "https://github.com/zhiqing-lee/studio",
+    "demo": "http://studio.zhiqing.info"
   },
   {
     "id": 2,
-    "name": "test work two",
-    "detail": "this is a test",
+    "name": "课程表",
+    "detail": "一个没有完成的课程表APP，只有成绩查询功能",
     "cover": "this is cover url",
     "platform": "Android",
-    "langs": ["Java", "Javascript"]
+    "langs": ["Java"],
+    "libs": ["OkHttp", "JSoup"],
+    "source": "https://github.com/zhiqing-lee/Schedule"
   },
   {
     "id": 3,
-    "name": "test work three",
-    "detail": "this is a test",
+    "name": "计算器",
+    "detail": "一个简易的计算器程序，",
     "cover": "this is cover url",
     "platform": "desktop",
-    "langs": ["java", "Javascript"]
-  },
-  {
-    "id": 4,
-    "name": "test work four",
-    "detail": "this is a test",
-    "cover": "this is cover url",
-    "platform": "Iphone",
-    "langs": ["java", "Javascript"]
-  },
-  {
-    "id": 5,
-    "name": "test work five",
-    "detail": "this is a test",
-    "cover": "this is cover url",
-    "platform": "Web",
-    "langs": ["java", "Javascript"]
+    "langs": ["C#"]
   }
 ]

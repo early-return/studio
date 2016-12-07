@@ -33,6 +33,7 @@ h1.title {
   margin-top: 1em;
   font-size: .8em;
   color: #888;
+  font-family: 'Julius Sans One', sans-serif, source-han-sans-simplified-c, "Microsoft YaHei", SimHei;
 }
 .panel .btn {
   padding: .5em 2em;

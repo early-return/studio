@@ -1,13 +1,20 @@
 <div class="container-fluid">
   <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-    <h1 class="title" *ngIf="work">{{work.name}}</h1>
-    <h1 class="title" *ngIf="!work">作品详情</h1>
+
+
     <div *ngIf="work">
+      <h1 class="title">{{work.name}}</h1>
 
       <p>id: {{work.id}}</p>
       <p>name: {{work.name}}</p>
       <p>detail: {{work.detail}}</p>
 
+    </div>
+
+    <div *ngIf="!work">
+      <h1 class="title" *ngIf="!work">作品详情</h1>
+
+      <no-data></no-data>
     </div>
 
     <p (click)="gotoWorks()">Back</p>

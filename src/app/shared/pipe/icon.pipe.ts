@@ -36,6 +36,8 @@ export class IconPipe implements PipeTransform {
         result = 'glyphicon glyphicon-leaf';
         break;
       case 'javascript':
+      case 'typescript':
+      case 'coffeescript':
         result = 'glyphicon glyphicon-fire';
         break;
       case 'c#':
