@@ -1,31 +1,38 @@
-# Studio
+# 工作室主页
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.21.
+基于Angular框架编写的一个工作室主页，使用Bootstrap进行响应式布局。 
 
-## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+该项目为静态网站，获取的数据来自静态的JSON文件。
 
-## Code scaffolding
+演示地址： [演示地址](http://studio.zhiqing.info/)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class`.
+### 安装Angular Cli
 
-## Build
+```bash
+npm install -g angular-cli
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+### 运行
 
-## Running unit tests
+```bash
+cd studio
+ng server
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+使用浏览器访问 http://localhost:4200
 
-## Running end-to-end tests
+### 部署
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+部署到Github Pages:
 
-## Deploying to Github Pages
+```bash
+ng github-pages:deploy -prod
+```
 
-Run `ng github-pages:deploy` to deploy to Github Pages.
+### 生成页面
 
-## Further help
+```bash
+ng build
+```
 
-To get more help on the `angular-cli` use `ng --help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+生成的页面在 `dist` 目录中
