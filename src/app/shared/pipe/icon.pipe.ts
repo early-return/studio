@@ -1,8 +1,8 @@
 import {Pipe, PipeTransform} from "@angular/core";
-@Pipe({name: 'iconClass'})
+@Pipe({name: 'icon'})
 export class IconPipe implements PipeTransform {
 
-  transform(value: string): string {
+  transform(value: string, args?: string): string {
     let lv = value.toLowerCase();
     let result: string;
     switch (lv) {
@@ -50,7 +50,10 @@ export class IconPipe implements PipeTransform {
       default:
         result = '';
     }
-    return result;
+    if(args == 'class') {
+      return result;
+    }
+    return '<span class="' + result + '"></span>';
   }
 
 }

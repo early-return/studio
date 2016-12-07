@@ -1,14 +1,19 @@
 <div class="panel">
-  <span class="{{iconClass}} col-xs-1"></span>
-  <div class="col-xs-11">
-    <div class="panel-heading col-xs-11">
-      <h3 class="panel-title">{{title}}</h3>
-    </div>
-    <div class="panel-body col-xs-11 col-xs-offset-1">
+  <div class="panel-heading row">
+    <span class="panel-icon col-xs-1"><icon [iconClass]="panel.iconClass"></icon></span>
+    <h3 class="panel-title col-xs-11">
+      {{panel.title}}
+      <span class="panel-subtitle" *ngIf="panel.subtitle">
+              {{panel.subtitle}}
+      </span>
+    </h3>
+  </div>
+  <div class="panel-body row">
+    <div class="col-xs-11 col-xs-offset-1">
       <div class="">
-        {{content}}
+        {{panel.content}}
       </div>
-      <button *ngIf="button" (click)="buttonClick()">{{button}}</button>
+      <a class="btn" *ngIf="panel.button" (click)="panel.handler()">{{panel.button}}</a>
     </div>
   </div>
 </div>

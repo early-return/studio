@@ -1,6 +1,8 @@
 import {Component} from "@angular/core";
 import {StateService} from "../shared/service/state.service";
 import {Router} from "@angular/router";
+import {Panel} from "../shared/components/panel";
+import {IconPipe} from "../shared/pipe/icon.pipe";
 @Component({
   selector: 'home',
   templateUrl: 'home.component.html',

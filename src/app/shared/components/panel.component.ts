@@ -1,4 +1,5 @@
 import {Component, Input} from "@angular/core";
+import {Panel} from "./panel";
 
 @Component({
   selector: 'panel',
@@ -6,9 +7,5 @@ import {Component, Input} from "@angular/core";
   styleUrls: ['panel.component.css']
 })
 export class PanelComponent {
-  @Input() title: string;
-  @Input() iconClass: string;
-  @Input() content: string;
-  @Input() button: string;
-  @Input() buttonClick: any;
+  @Input() panel: Panel;
 }

@@ -1,3 +1,9 @@
+h1.title {
+  color: #34A853;
+  font-weight: 900;
+  text-align: right;
+  margin-bottom: 2em;
+}
 
 .panel {
   border: 1px solid #EEE;
@@ -6,13 +12,14 @@
 }
 .panel .panel-heading .panel-title {
   font-weight: bold;
-  font-size: 1.3em;
-  font-family: 'Open Sans', sans-serif, source-han-sans-simplified-c, "Microsoft YaHei", SimHei;
+  color: #34A853;
+  font-size: 1.5em;
+  font-family: 'Julius Sans One', sans-serif, source-han-sans-simplified-c, "Microsoft YaHei", SimHei;
 }
 .panel .panel-heading .panel-subtitle {
   margin-left: .5em;
   font-size: .5em;
-  font-weight: 400;
+  font-weight: 600;
   color: #888;
 }
 .panel .panel-icon {
@@ -21,6 +28,11 @@
   text-align: right;
   padding-left: 0;
   padding-right: 0;
+}
+.panel .tips {
+  margin-top: 1em;
+  font-size: .8em;
+  color: #888;
 }
 .panel .btn {
   padding: .5em 2em;
