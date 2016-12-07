@@ -5,7 +5,6 @@ import {StateService} from "../shared/service/state.service";
   styleUrls: ['about.component.css']
 })
 export class AboutComponent {
-
   constructor(
     public stateService: StateService
   ) {

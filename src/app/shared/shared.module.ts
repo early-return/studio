@@ -9,10 +9,12 @@ import {IconComponent} from "./components/icon.component";
   ],
   declarations: [
     IconPipe,
-    IconComponent
+    IconComponent,
+    PanelComponent
   ],
   exports: [
-    IconPipe
+    IconPipe,
+    PanelComponent
   ]
 })
 export class SharedModule {}

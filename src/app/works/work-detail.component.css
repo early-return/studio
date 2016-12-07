@@ -1,20 +1,19 @@
 h1.title {
   color: #34A853;
   font-weight: 900;
-  margin-bottom: .3em;
+  margin-bottom: 1em;
   font-family: 'Julius Sans One', sans-serif, source-han-sans-simplified-c, "Microsoft YaHei", SimHei;
 }
 .platform {
   color: #4285F4;
-  font-size: 1em;
-  margin-bottom: 3em;
-  font-family: 'Julius Sans One', sans-serif, source-han-sans-simplified-c, "Microsoft YaHei", SimHei;
+  font-size: .4em;
 }
-h2.subtitle {
+h2.detail {
   color: #333;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 1.5em;
-  margin-bottom: 4em;
+  line-height: 1.5em;
+  margin-bottom: 2em;
 }
 
 .links {

@@ -2,7 +2,7 @@ h1.title {
   color: #34A853;
   font-weight: 900;
   text-align: right;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
 .panel {
@@ -28,6 +28,10 @@ h1.title {
   text-align: right;
   padding-left: 0;
   padding-right: 0;
+}
+.panel .content {
+  height: 3em;
+  overflow: hidden;
 }
 .panel .tips {
   margin-top: 1em;

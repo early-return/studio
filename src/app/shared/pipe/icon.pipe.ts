@@ -18,6 +18,15 @@ export class IconPipe implements PipeTransform {
       case 'link':
         result = 'glyphicon glyphicon-link';
         break;
+      case 'user':
+        result = 'glyphicon glyphicon-user';
+        break;
+      case 'heart':
+        result = 'glyphicon glyphicon-heart';
+        break;
+      case 'flag':
+        result = 'glyphicon glyphicon-flag';
+        break;
 
 
       case 'web':
