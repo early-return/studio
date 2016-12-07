@@ -1,10 +1,32 @@
 <div class="container-fluid">
   <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-    <h1>Work List</h1>
 
-    <ul>
-      <li *ngFor="let work of works" (click)="onSelect(work)">{{work.name}}({{work.id}})</li>
-    </ul>
+    <div class="col-xs-12 col-md-6" *ngFor="let work of works">
+      <div class="panel">
+        <div class="panel-heading row">
+          <span class="panel-icon col-xs-1"><span [class]="work.platform | iconClass"></span></span>
+          <h3 class="panel-title col-xs-11">
+            {{work.name}}
+            <span class="panel-subtitle">
+              <span *ngIf="work.platform">
+                <span [class]="work.platform | iconClass"></span>{{work.platform}},&nbsp;
+              </span>
+              <span *ngIf="work.langs">
+                <span [class]="work.langs[0] | iconClass"></span>{{work.langs[0]}}
+              </span>
+            </span>
+          </h3>
+        </div>
+        <div class="panel-body row">
+          <div class="col-xs-11 col-xs-offset-1">
+            <div class="">
+              {{work.detail}}
+            </div>
+            <a class="btn" (click)="onSelect(work)">浏览作品</a>
+          </div>
+        </div>
+      </div>
+    </div>
 
   </div>
 </div>

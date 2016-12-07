@@ -1,5 +1,5 @@
 import {Component} from "@angular/core";
-import {StateService} from "../common/service/state.service";
+import {StateService} from "../shared/service/state.service";
 import {Router} from "@angular/router";
 @Component({
   selector: 'home',

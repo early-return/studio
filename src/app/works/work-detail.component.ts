@@ -4,8 +4,8 @@ import {WorkService} from "./work.service";
 import {Work} from "./work";
 
 import 'rxjs/add/operator/switchMap';
-import {Logger} from "../common/service/logger.service";
-import {StateService} from "../common/service/state.service";
+import {Logger} from "../shared/service/logger.service";
+import {StateService} from "../shared/service/state.service";
 
 @Component({
   selector: 'work-detail',

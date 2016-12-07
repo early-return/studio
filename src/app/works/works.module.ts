@@ -6,6 +6,7 @@ import { WorkService } from './work.service';
 import { WorkListComponent } from './work-list.component';
 import { WorkDetailComponent } from './work-detail.component';
 import { WorkRoutingModule } from "./works-routing.module";
+import {SharedModule} from "../shared/shared.module";
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { WorkRoutingModule } from "./works-routing.module";
   ],
   imports: [
     CommonModule,
-    WorkRoutingModule
+    WorkRoutingModule,
+    SharedModule
   ],
   providers: [
     WorkService

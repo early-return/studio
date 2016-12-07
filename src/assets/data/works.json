@@ -1,32 +1,42 @@
 [
   {
-    "id": "1",
+    "id": 1,
     "name": "test work one",
     "detail": "this is a test",
-    "cover": "this is cover url"
+    "cover": "this is cover url",
+    "platform": "Web",
+    "langs": ["JavaScript", "Javascript"]
   },
   {
-    "id": "2",
+    "id": 2,
     "name": "test work two",
     "detail": "this is a test",
-    "cover": "this is cover url"
+    "cover": "this is cover url",
+    "platform": "Android",
+    "langs": ["Java", "Javascript"]
   },
   {
-    "id": "3",
+    "id": 3,
     "name": "test work three",
     "detail": "this is a test",
-    "cover": "this is cover url"
+    "cover": "this is cover url",
+    "platform": "desktop",
+    "langs": ["java", "Javascript"]
   },
   {
-    "id": "4",
+    "id": 4,
     "name": "test work four",
     "detail": "this is a test",
-    "cover": "this is cover url"
+    "cover": "this is cover url",
+    "platform": "Iphone",
+    "langs": ["java", "Javascript"]
   },
   {
-    "id": "5",
+    "id": 5,
     "name": "test work five",
     "detail": "this is a test",
-    "cover": "this is cover url"
+    "cover": "this is cover url",
+    "platform": "Web",
+    "langs": ["java", "Javascript"]
   }
 ]
