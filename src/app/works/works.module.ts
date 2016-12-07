@@ -8,12 +8,14 @@ import { WorkDetailComponent } from './work-detail.component';
 import { WorkRoutingModule } from "./works-routing.module";
 import {SharedModule} from "../shared/shared.module";
 import {NoDataComponent} from "./no-data.component";
+import {PanelComponent} from "./panel.component";
 
 @NgModule({
   declarations: [
     WorkListComponent,
     WorkDetailComponent,
-    NoDataComponent
+    NoDataComponent,
+    PanelComponent
   ],
   imports: [
     CommonModule,

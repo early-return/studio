@@ -8,12 +8,10 @@ import {IconComponent} from "./components/icon.component";
     CommonModule
   ],
   declarations: [
-    PanelComponent,
     IconPipe,
     IconComponent
   ],
   exports: [
-    PanelComponent,
     IconPipe
   ]
 })

@@ -5,9 +5,25 @@
     <div *ngIf="work">
       <h1 class="title">{{work.name}}</h1>
 
-      <p>id: {{work.id}}</p>
-      <p>name: {{work.name}}</p>
-      <p>detail: {{work.detail}}</p>
+      <p class="platform"><span [class]="work.platform | icon:'class'"></span>{{work.platform}}</p>
+
+      <h2 class="subtitle">{{work.detail}}</h2>
+
+      <div class="row">
+        <div class="col-xs-12 col-md-6">
+          <panel [title]="'languages'" [iconClass]="'glyphicon glyphicon-tint'" [contents]="work.langs"></panel>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <panel *ngIf="work.libs" [title]="'libraries'" [iconClass]="'glyphicon glyphicon-stats'" [contents]="work.libs"></panel>
+        </div>
+      </div>
+
+      <div class="links">
+        <a class="btn" *ngIf="work.demo" [href]="work.demo">演示</a>
+        <a class="btn" *ngIf="work.source" [href]="work.source">源码</a>
+        <a class="btn" *ngIf="work.download" [href]="work.download">下载</a>
+      </div>
+
 
     </div>
 
@@ -17,7 +33,7 @@
       <no-data></no-data>
     </div>
 
-    <p (click)="gotoWorks()">Back</p>
+    <a class="btn" (click)="gotoWorks()">&lt;&lt;返回</a>
 
   </div>
 </div>

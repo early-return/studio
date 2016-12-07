@@ -15,7 +15,7 @@ export class WorkService {
   getWorks() {
     return this.http.get(this.worksUrl)
       .toPromise()
-      .then(response => response.json() as Work[]);
+      .then(response => response.json().data as Work[]);
   }
 
   getWork(id: number | string) {
