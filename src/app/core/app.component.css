@@ -68,7 +68,28 @@ footer {
   padding-bottom: 4em;
   background-color: #EEE;
 }
-
+footer .contact {
+  text-align: right;
+}
+footer .contact .title {
+  font-size: 1em;
+  margin-top: 0;
+  color: #888;
+}
+footer .contact a {
+  font-size: 1.5em;
+  color: #666;
+  transition: all .2s;
+}
+footer .contact a.mail:hover {
+  color: #4285F4;
+}
+footer .contact a.steam:hover {
+  color: #212F43;
+}
+footer .contact a.github:hover {
+  color: #4078C0;
+}
 
 
 
