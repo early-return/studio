@@ -7,50 +7,56 @@ export class IconPipe implements PipeTransform {
     let result: string;
     switch (lv) {
       case 'about':
-        result = 'glyphicon glyphicon-info-sign';
+        result = 'fa fa-info';
         break;
       case 'book':
-        result = 'glyphicon glyphicon-book';
+        result = 'fa fa-book';
         break;
       case 'copy':
-        result = 'glyphicon glyphicon-copyright-mark';
+        result = 'fa fa-copyright';
         break;
       case 'link':
-        result = 'glyphicon glyphicon-link';
+        result = 'fa fa-link';
         break;
       case 'user':
-        result = 'glyphicon glyphicon-user';
+        result = 'fa fa-user';
         break;
       case 'heart':
-        result = 'glyphicon glyphicon-heart';
+        result = 'fa fa-heart';
         break;
       case 'flag':
-        result = 'glyphicon glyphicon-flag';
+        result = 'fa fa-flag';
+        break;
+      case 'code':
+        result = 'fa fa-code';
         break;
 
 
       case 'web':
-        result = 'glyphicon glyphicon-globe';
+        result = 'fa fa-chrome';
         break;
       case 'android':
+        result = 'fa fa-android';
+        break;
       case 'iphone':
-        result = 'glyphicon glyphicon-phone';
+        result = 'fa fa-mobile';
         break;
       case 'desktop':
-        result = 'glyphicon glyphicon-credit-card'
+        result = 'fa fa-desktop';
         break;
 
 
       case 'java':
-        result = 'glyphicon glyphicon-leaf';
+        result = 'fa fa-coffee';
         break;
       case 'javascript':
       case 'typescript':
       case 'coffeescript':
-        result = 'glyphicon glyphicon-fire';
+      case 'html':
+        result = 'fa fa-html5';
         break;
       case 'c#':
-        result = 'glyphicon glyphicon-asterisk';
+        result = 'fa fa-slack';
         break;
       case 'python':
         result = '';

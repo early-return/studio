@@ -26,17 +26,17 @@ import {Component, Input} from "@angular/core";
   padding-bottom: .5em;
   font-family: 'Julius Sans One', sans-serif, source-han-sans-simplified-c, "Microsoft YaHei", SimHei;
 }
-.panel .panel-heading .panel-title {
+.panel .panel-heading {
   font-weight: bold;
   color: #333;
   font-size: 1.2em;
 }
 .panel .panel-icon {
   color: #34A853;
-  line-height: 1.5em;
   text-align: right;
   padding-left: 0;
   padding-right: 0;
+  margin-top: -0.15em;
 }
 .panel-body {
   padding-top: 0;
