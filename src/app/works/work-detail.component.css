@@ -4,6 +4,9 @@ h1.title {
   margin-bottom: 1em;
   font-family: 'Julius Sans One', sans-serif, source-han-sans-simplified-c, "Microsoft YaHei", SimHei;
 }
+h1.title.error {
+  color: #EA4335;
+}
 .platform {
   color: #4285F4;
   font-size: .4em;

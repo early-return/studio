@@ -7,7 +7,8 @@ import {AboutComponent} from "./about.component";
 
 const appRoutes: Routes = [
   {path: 'about', component: AboutComponent},
-  {path: '', component: HomeComponent}
+  {path: '', component: HomeComponent},
+  {path: '**', component: PageNotFoundComponent}
 ];
 
 @NgModule({

@@ -31,7 +31,7 @@
     </div>
 
     <div *ngIf="!work">
-      <h1 class="title" *ngIf="!work">作品详情</h1>
+      <h1 class="title  {{stateService.state}}" *ngIf="!work">作品详情</h1>
 
       <no-data></no-data>
     </div>

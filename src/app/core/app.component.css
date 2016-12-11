@@ -68,6 +68,17 @@ footer {
   padding-bottom: 3em;
   background-color: #EEE;
 }
+footer .copy a .fa-link {
+  color: #333;
+  visibility: hidden;
+}
+footer .copy a:hover {
+  text-decoration: none;
+}
+footer .copy a:hover .fa-link {
+  text-decoration: none;
+  visibility: visible;
+}
 footer .contact {
   text-align: right;
 }
@@ -100,6 +111,7 @@ footer .contact a.github:hover {
   padding-top: 0;
   padding-bottom: 0;
   margin-bottom: 2em;
+  font-family: 'Julius Sans One', sans-serif, source-han-sans-simplified-c, "Microsoft YaHei", SimHei;
 }
 .header-line .btn {
   height: 100%;
@@ -114,4 +126,7 @@ footer .contact a.github:hover {
   background-color: #4285F4;
   color: #FFF;
   border-radius: 0;
+}
+.header-line.error .btn {
+  background-color: #EA4335;
 }

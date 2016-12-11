@@ -4,6 +4,9 @@ h1.title {
   text-align: right;
   margin-bottom: 1em;
 }
+h1.title.error {
+  color: #EA4335;
+}
 
 .panel {
   border: 1px solid #EEE;
