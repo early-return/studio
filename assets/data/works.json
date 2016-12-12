@@ -29,12 +29,14 @@
       "cover": "this is cover url",
       "platform": "desktop",
       "langs": ["C#"],
-      "libs": [".NET Framework"]
+      "libs": [".NET Framework"],
+      "source": "https://github.com/zhiqing-lee/Calculator",
+      "download": "assets/downloads/Computer.exe"
     },
     {
       "id": 4,
       "name": "个人主页",
-      "detail": "纯手写的一个个人主页页面，外观模仿的旧版豆瓣FM。",
+      "detail": "纯手写的一个个人主页页面，界面模仿的旧版豆瓣FM。",
       "cover": "this is cover url",
       "platform": "Web",
       "langs": ["JavaScript", "HTML", "CSS"],
