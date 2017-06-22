@@ -1,0 +1,42 @@
+<div class="container-fluid">
+  <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+
+
+    <div *ngIf="work">
+      <h1 class="title">
+        {{work.name}}
+        <span class="platform">&nbsp;<span [class]="work.platform | icon:'class'"></span>{{work.platform}}</span>
+      </h1>
+
+
+
+      <h2 class="detail">{{work.detail}}</h2>
+
+      <div class="row">
+        <div class="col-xs-12 col-md-6">
+          <panel [title]="'languages'" [iconClass]="'glyphicon glyphicon-tint'" [contents]="work.langs"></panel>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <panel *ngIf="work.libs" [title]="'libraries'" [iconClass]="'glyphicon glyphicon-stats'" [contents]="work.libs"></panel>
+        </div>
+      </div>
+
+      <div class="links">
+        <a class="btn" *ngIf="work.demo" [href]="work.demo">演示</a>
+        <a class="btn" *ngIf="work.source" [href]="work.source">源码</a>
+        <a class="btn" *ngIf="work.download" [href]="work.download">下载</a>
+      </div>
+
+
+    </div>
+
+    <div *ngIf="!work">
+      <h1 class="title  {{stateService.state}}" *ngIf="!work">作品详情</h1>
+
+      <no-data></no-data>
+    </div>
+
+    <a class="btn" (click)="gotoWorks()">&lt;&lt;返回</a>
+
+  </div>
+</div>

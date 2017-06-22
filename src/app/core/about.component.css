@@ -1,0 +1,15 @@
+h1.title {
+  color: #34A853;
+  font-weight: 900;
+  text-align: right;
+  margin-bottom: 1em;
+}
+
+.subtitle {
+  color: #4285F4;
+  font-size: 1.8em;
+  margin: 1.5em 0 1em 0;
+}
+.subtitle span {
+  line-height: 2em;
+}

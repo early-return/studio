@@ -1,0 +1,45 @@
+h1.title {
+  color: #34A853;
+  font-weight: 900;
+  margin-bottom: 1em;
+  font-family: 'Julius Sans One', sans-serif, source-han-sans-simplified-c, "Microsoft YaHei", SimHei;
+}
+h1.title.error {
+  color: #EA4335;
+}
+.platform {
+  color: #4285F4;
+  font-size: .4em;
+}
+h2.detail {
+  color: #333;
+  font-weight: 300;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  margin-bottom: 2em;
+}
+
+.links {
+  margin-top: 2em;
+  margin-bottom: 4em;
+}
+
+.links .btn {
+  padding: .5em 2em;
+  background-color: #4285F4;
+  text-align: center;
+  color: #FFF;
+  margin-top: 1em;
+  letter-spacing: 0.2em;
+  font-weight: 600;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.2);
+  position: relative;
+  top: 0;
+  border: 0;
+  transition: all 0.2s;
+}
+.links .btn:hover {
+  background-color: #2266DD;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0);
+  top: -1px;
+}
