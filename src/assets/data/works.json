@@ -1,56 +1,77 @@
 {
-  "error": false,
-  "data": [
-    {
-      "id": 1,
-      "name": "工作室",
-      "detail": "基于Angular框架编写的一个工作室主页，也就是你现在正在浏览的这个网站。\n本项目使用Bootstrap进行响应式布局，所以在手机和电脑上均有良好的视觉体验。\n该项目为静态网站，获取的数据来自静态的JSON文件。",
-      "cover": "this is cover url",
-      "platform": "Web",
-      "libs": ["Angular", "Bootstrap"],
-      "langs": ["TypeScript", "HTML", "CSS"],
-      "source": "https://github.com/zhiqing-lee/studio",
-      "demo": "http://studio.zhiqing.info"
-    },
-    {
-      "id": 2,
-      "name": "课程表",
-      "detail": "一个没有完成的课程表APP，由于技术原因，只完成了成绩查询功能。",
-      "cover": "this is cover url",
-      "platform": "Android",
-      "langs": ["Java"],
-      "libs": ["OkHttp", "JSoup"],
-      "source": "https://github.com/zhiqing-lee/Schedule"
-    },
-    {
-      "id": 3,
-      "name": "计算器",
-      "detail": "一个简易的计算器程序，学校实验课的作业，由于对C#不是很了解，所以没写完。",
-      "cover": "this is cover url",
-      "platform": "desktop",
-      "langs": ["C#"],
-      "libs": [".NET Framework"]
-    },
-    {
-      "id": 4,
-      "name": "个人主页",
-      "detail": "纯手写的一个个人主页页面，外观模仿的旧版豆瓣FM。",
-      "cover": "this is cover url",
-      "platform": "Web",
-      "langs": ["JavaScript", "HTML", "CSS"],
-      "source": "https://github.com/zhiqing-lee/homepage",
-      "demo": "http://zhiqing.info"
-    },
-    {
-      "id": 5,
-      "name": "JS Printer",
-      "detail": "一个实现打字机效果的js库，初学JS时所写，所以写的很像C语言的程序，后来被人重构了我都看不懂了...",
-      "cover": "this is cover url",
-      "platform": "Web",
-      "langs": ["JavaScript"],
-      "source": "https://github.com/zhiqing-lee/js-printer",
-      "demo": "http://zhiqing.info",
-      "download": "https://github.com/zhiqing-lee/js-printer/archive/master.zip"
-    }
-  ]
+    "error": false,
+    "data": [{
+            "id": 1,
+            "name": "工作室",
+            "detail": "基于Angular框架编写的一个工作室主页，也就是你现在正在浏览的这个网站。\n本项目使用Bootstrap进行响应式布局，所以在手机和电脑上均有良好的视觉体验。\n该项目为静态网站，获取的数据来自静态的JSON文件。",
+            "cover": "this is cover url",
+            "platform": "Web",
+            "libs": ["Angular", "Bootstrap"],
+            "langs": ["TypeScript", "HTML", "CSS"],
+            "source": "https://github.com/zhiqing-lee/studio",
+            "demo": "http://studio.zhiqing.info"
+        },
+        {
+            "id": 2,
+            "name": "小海湾",
+            "detail": "用Kotlin写的海盗湾的Android端App。",
+            "cover": "this is cover url",
+            "platform": "Android",
+            "libs": ["Retrofit"],
+            "langs": ["Kotlin", "Java"],
+            "source": "https://github.com/zhiqing-lee/tinypiratebay",
+            "download": "http://www.coolapk.com/apk/info.zhiqing.tinypiratebay"
+        },
+        {
+            "id": 3,
+            "name": "海盗湾API",
+            "detail": "用Java写的海盗湾爬虫，并使用Spring MVC提供API。",
+            "cover": "this is cover url",
+            "platform": "Web",
+            "libs": ["Spring", "OKHttp", "JSoup"],
+            "langs": ["Java"],
+            "source": "https://github.com/zhiqing-lee/thepiratebayapi",
+            "demo": "https://github.com/zhiqing-lee/thepiratebayapi"
+        },
+        {
+            "id": 4,
+            "name": "课程表",
+            "detail": "一个没有完成的课程表APP，由于技术原因，只完成了成绩查询功能。",
+            "cover": "this is cover url",
+            "platform": "Android",
+            "langs": ["Java"],
+            "libs": ["OKHttp", "JSoup"],
+            "source": "https://github.com/zhiqing-lee/Schedule"
+        },
+        {
+            "id": 5,
+            "name": "计算器",
+            "detail": "一个简易的计算器程序，学校实验课的作业，由于对C#不是很了解，所以没写完。",
+            "cover": "this is cover url",
+            "platform": "desktop",
+            "langs": ["C#"],
+            "libs": [".NET Framework"]
+        },
+        {
+            "id": 6,
+            "name": "个人主页",
+            "detail": "纯手写的一个个人主页页面，外观模仿的旧版豆瓣FM。",
+            "cover": "this is cover url",
+            "platform": "Web",
+            "langs": ["JavaScript", "HTML", "CSS"],
+            "source": "https://github.com/zhiqing-lee/homepage",
+            "demo": "http://zhiqing.info"
+        },
+        {
+            "id": 7,
+            "name": "JS Printer",
+            "detail": "一个实现打字机效果的js库，初学JS时所写，所以写的很像C语言的程序，后来被人重构了我都看不懂了...",
+            "cover": "this is cover url",
+            "platform": "Web",
+            "langs": ["JavaScript"],
+            "source": "https://github.com/zhiqing-lee/js-printer",
+            "demo": "http://zhiqing.info",
+            "download": "https://github.com/zhiqing-lee/js-printer/archive/master.zip"
+        }
+    ]
 }
